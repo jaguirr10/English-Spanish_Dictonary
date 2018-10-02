@@ -1,0 +1,47 @@
+
+<!DOCTYPE html><html lang='en' >
+<head>
+
+<title> English-Spanish Dictionary </title>
+
+<meta charset='UTF-8'>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<body>
+  <div class="search-wrapper">
+    <div class="logo">
+      <p>English-Spanish Dictionary </p>
+    </div>
+    <form id="translate">
+      <input name="word" type="text" placeholder=" Enter a Word " ><button type="submit"></button>
+      <section class="result">
+        <h2 class="translation" style="color: #FFF4ED"></h2>
+        <button type="reset" class="Bravo hidden">Bravo Bravo!</button>
+      </section>
+      <section class="not-found hidden">
+        <h2 class="not-found-header">
+          Ahorita no esta lo que buscas
+        </h2>
+        <p>I could not find the word you are looking for, and now I am coming for you!</p>
+        <div class="not-found_graphic">
+          <button type="reset">inténtalo otra vez</button>
+        </div>
+      </section>
+    </form>
+  </div>
+  <a href="https://translate.yandex.com/">Powered by Yandex</a>
+</body>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+<script src="main.js"></script>
+
+
+</body></html>
